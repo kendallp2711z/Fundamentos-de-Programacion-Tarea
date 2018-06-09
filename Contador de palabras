@@ -1,0 +1,6 @@
+    public static void main(String[] args) {
+        String Texto = "Esta es una frase de prueba";
+        StringTokenizer st = new StringTokenizer(Texto);
+        System.out.println (st.countTokens());
+    }
+}
